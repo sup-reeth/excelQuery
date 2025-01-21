@@ -110,12 +110,12 @@ function App() {
     <div className="App px-2 py-4">
       <div className='example1 mb-5'>
       <div className='d-flex inside'>
-        <button type="button" className="btn btn-outline-primary mx-2">Registration  code</button>
-        <button type="button" className="btn btn-outline-primary mx-2">Download certificate</button>
-        <button type="button" className="btn btn-outline-primary mx-2">Find vaccine centres</button>
-        <button type="button" className="btn btn-outline-primary mx-2">Schedule Appointment</button>
-        <button type="button" className="btn btn-outline-primary mx-2">FAQ</button>
-        <button type="button" className="btn btn-outline-primary mx-2">Contact Us</button>
+        <button type="button" className="btn btn-outline-success mx-2">Registration  code</button>
+        <button type="button" className="btn btn-outline-success mx-2">Download certificate</button>
+        <button type="button" className="btn btn-outline-success mx-2">Find vaccine centres</button>
+        <button type="button" className="btn btn-outline-success mx-2">Schedule Appointment</button>
+        <button type="button" className="btn btn-outline-success mx-2">FAQ</button>
+        <button type="button" className="btn btn-outline-success mx-2">Contact Us</button>
       </div>
       </div>
       
