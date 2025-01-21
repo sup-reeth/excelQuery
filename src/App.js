@@ -108,12 +108,17 @@ function App() {
 
   return (
     <div className="App px-2 py-4">
-      {/* Query input */}
-      {/* <div className='row m-0'> */}
-    {/* <div className='col text-left'> */}
-    {/* <Form.Group controlId="formFile" className="mb-3">
-        <Form.Control type="file" accept=".xlsx, .xls" onChange={handleFileUpload} />
-      </Form.Group> */}
+      <div className='example1 mb-5'>
+      <div className='d-flex inside'>
+        <button type="button" className="btn btn-outline-primary mx-2">Registration  code</button>
+        <button type="button" className="btn btn-outline-primary mx-2">Download certificate</button>
+        <button type="button" className="btn btn-outline-primary mx-2">Find vaccine centres</button>
+        <button type="button" className="btn btn-outline-primary mx-2">Schedule Appointment</button>
+        <button type="button" className="btn btn-outline-primary mx-2">FAQ</button>
+        <button type="button" className="btn btn-outline-primary mx-2">Contact Us</button>
+      </div>
+      </div>
+      
       <div className='d-flex'>
       <div className="file-upload-container">
       <input
@@ -134,11 +139,6 @@ function App() {
     </div>
 
       </div>
-    {/* </div> */}
-    {/* <div className='col d-flex justify-content-end'> */}
-    
-    {/* </div> */}
-      {/* </div> */}
       <div className='d-flex justify-content-end my-2'>
         <div className='position-relative'>
       <input
@@ -246,13 +246,6 @@ function App() {
       {data.length > 0 && (<div className='d-flex p-2' style={{justifyContent: 'right'}}>
           <Button variant="success" onClick={exportToPDF}>Export to PDF</Button>
           </div>)}
-      {/* Display the full data if no query is provided */}
-      {/* {data.length > 0 && !query && (
-        <div>
-          <h2>Excel Data:</h2>
-          <pre>{JSON.stringify(data, null, 2)}</pre>
-        </div>
-      )} */}
     </div>
   );
 }
