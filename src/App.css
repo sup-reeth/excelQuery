@@ -1,0 +1,119 @@
+body {
+  background-image: url("../src/pixel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.borders {
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.searchIcon {
+  position: absolute;
+    bottom: 7px;
+    right: 6px;
+}
+.inputradius {
+  border-radius: 20px;
+}
+/* Container to hold the file input and label */
+.file-upload-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* Hide the default file input */
+.file-upload-input {
+  display: none;
+}
+
+/* Style for the label to look like a button */
+.file-upload-label {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Hover effect on the button */
+.file-upload-label:hover {
+  background-color: #45a049;
+}
+
+/* Optional: Display the file name after selection */
+.file-upload-container .file-upload-input:valid + .file-upload-label::after {
+  content: ' (file selected)';
+  color: #777;
+}
+/* File upload container */
+.file-upload-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Style the file input to be hidden */
+.file-upload-input {
+  display: none;
+}
+
+/* Custom label to style the file upload button */
+.file-upload-label {
+  display: inline-block;
+  padding: 20px 30px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100%;
+  text-align: center;
+}
+
+/* Icon for file upload */
+.upload-icon {
+  display: block;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+/* Hover effect on the label */
+.file-upload-label:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+/* Optional: Show file name after selecting */
+.file-name {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Drag and drop effect */
+.file-upload-container:hover .file-upload-label {
+  background-color: #3e8e41;
+}
+
+.file-upload-label::before {
+  content: "Click To Select";
+  display: block;
+  font-size: 18px;
+  /* margin-top: 15px; */
+  color: #bbb;
+  font-weight: normal;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.file-upload-container:hover .file-upload-label::before {
+  opacity: 1;
+}
