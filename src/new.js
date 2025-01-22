@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { CiSearch } from "react-icons/ci";
 import "../src/App.css";
-import { RxHamburgerMenu } from "react-icons/rx";
 
 const GoogleSheetPNRFetcher = () => {
   const [pnrInput, setPnrInput] = useState('');
