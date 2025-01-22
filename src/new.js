@@ -232,7 +232,15 @@ const GoogleSheetPNRFetcher = () => {
           ))}
         </div>
       ) : (
+        <>
         <div className='row m-0 justify-content-center'>No data found or enter a valid PNR.</div>
+        <div className='row m-0 justify-content-center'>
+          <div className='col-5 mt-5 word-wrap'>
+        <h5>Welcome to the COVID Vaccine PNR Status Check page! Here, you can easily track the status of your COVID-19 vaccination by checking your PNR (Personal Number Reference). Our user-friendly tool provides you with real-time updates
+        </h5>
+          </div>
+        </div>
+        </>
       )}
   </div>
     {loading ? 'Loading...' : ''}
