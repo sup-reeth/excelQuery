@@ -28,7 +28,7 @@ const GoogleSheetPNRFetcher = () => {
       if (rows && rows.length > 0) {
         console.log('rows', rows)
         // Assuming first row contains headers
-        const headers = rows[0];
+        // const headers = rows[0];
 
         // Map rows into objects
         const formattedData = rows.slice(1).map((row) => {
