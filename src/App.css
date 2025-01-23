@@ -104,3 +104,11 @@ font-size: 20px;
 .colorwhite {
   color: gray !important;
 }
+
+.topBanner {
+  width: 100%;
+  background-image: url("../src/assets/banner.jpg");
+}
+.topContent {
+
+}
