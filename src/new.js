@@ -186,7 +186,7 @@ const GoogleSheetPNRFetcher = () => {
 
     </div>
     {pnrData && pnrData.length > 0 ? (
-        <div className='containers'>
+        <div className='container'>
           {pnrData.map((data, index) => (
             <div className='row m-0 mb-3 divContainer' key={index}>
                 <div className='col-4 col-md-3 col-lg-3 text-break text-center p-3'>
